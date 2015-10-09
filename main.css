@@ -1,8 +1,10 @@
 * {
 	font-family:  'Alegreya Sands', sans-serif;
 }
-/*'Alegreya Sands',*/
 
+ul {
+	list-style: none;
+}
 .container {
   width:1060px;
   margin:0 auto;
@@ -20,8 +22,7 @@
 }
 
 #top-ads {
-	display: inline;
-	list-style: none;
+	display: inline;	
 	color: #fff;
 	margin-top: 10px;		
 }
@@ -63,8 +64,7 @@
 	width: 50%;
 }
 
-#categories {
-	list-style: none;
+#categories {	
 	display: inline;
 }
 .nav-choice {
@@ -84,7 +84,8 @@
 #links a {
 	text-decoration: none;
 	font-size: 0.7rem;
-	color: #DDD;
+	font-weight: 300;
+	color: #9EA2A8;
 }
 #form {
 	clear: right;
@@ -93,15 +94,22 @@
 }
 
 #cart {
-	padding: 1px 5px;
+	padding: 5px 10px;
 	border: 1px solid #DDD;
+	font-size: 0.8rem;
 }
 #search-box {
-	width: 50px;
+	display: inline-block;
+	width: 130px;
+	height: 25px;
+	border: 1px solid #DDD;
 }
-.specialties {
-	height: 400px;
+
+#search-box input {
+	width: 100px;
+	border: none;
 }
+
 
 .scallops {
 	width: 100%;
@@ -119,8 +127,7 @@
 	margin-left: 50px;
 }
 
-#tie-rack {
-	list-style: none;
+#tie-rack {	
 	display: inline;
 }
 
@@ -143,6 +150,24 @@
 	padding-top: 80px;
 }
 
+.specialties {
+	height: 400px;
+}
+#specialties {
+	margin-top: 50px;
+	display: inline;
+}
+
+.spec {
+	float: left;
+	margin-right: 30px;
+}
+
+.spec img {
+	width:300px;
+	height:200px;
+}
+
 
 footer {
 	width: 100%;
@@ -157,21 +182,27 @@ footer {
 
 .footer-list {
 	float:left;
-	margin-right: 20px;
-	padding-top: 10px;
+	margin-right: 45px;
+	padding-top: 15px;
+}
+
+.footer-list p {
+	font-size: 0.85rem;
+	font-weight: 300;
+	margin-bottom: 5px;
 }
 
 .footer-list ul {
 	list-style: none;
 	float:left;
 	padding: 0;	
-	font-weight: 80%;
+	font-weight: 300;
 }
 
 .footer-list ul li {
-	color: #A2AFC0;
-	font-size: 0.9rem;
-	padding-bottom: 3px;
+	color: #999999;
+	font-size: 0.85rem;
+	padding-bottom: 5px;
 }
 
 
