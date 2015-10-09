@@ -3,14 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SkinnyTies</title>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,700,500' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css" />
 	<link rel="stylesheet" href="main.css" />
 </head>
 <body>
+<!--***********************************************************************************
+TOP "orange" bar with special sales & offers
+*********************************************************************************** -->
 <div class="top-bar">
 	<div class="container">		
 			<ul id="top-ads">
-				<li class="top-ad" id="brick-back">FREE SHIPPING!</li>
+				<li id="brick-back">FREE SHIPPING!</li>
 				<li class="top-ad">Plus Fall Savings:</li>
 				<li class="top-ad">$10 off $50 order!</li>
 				<li class="top-ad">$20 off $100 order!</li>
@@ -19,28 +23,77 @@
 	</div>
 	
 </div>
-
+<!--***********************************************************************************
+First LARGE division, contains company logo(link)  MAIN MENU choices, Authentication links,
+shopping cart link, Search Box
+**************************************************************************************-->
 <div class="nav-menu">
 	<div class="container">
 		<div id="logo-link"><a href="#"><img src="assets/logo-stack@2x.png"></a></div>
-		<div>
-			
+		<div id="main-nav">
+			<ul id="categories">
+				<li class="nav-choice">Collection</li>
+				<li class="nav-choice">Color</li>
+				<li class="nav-choice">Width</li>
+				<li class="nav-choice">Fabric</li>
+				<li class="nav-choice">Pattern</li>
+			</ul>			
 		</div>
-		<div></div>
+		<div id="form-links">
+			<div id="links">
+				<span class="auth"><a href="#">SIGN IN</a></span>
+				<span class="auth"><a href="#">REGISTER</a></span>
+			</div>
+			<div id="form">
+				<span  id="cart">Cart</span>
+				<span id="search-box"><input type="text" placeholder="Search" /></span>				
+			</div>
+		</div>
 		
 	</div>
+	<div class="scallops"></div>
 </div>
+<!--**********************************************************************************
+		TIE RACK div!
+***********************************************************************************-->
 <div class="ties">
-	<div class="container"></div>
+	<div class="container">
+	<div id="outer-hanger">
+		<ul id="tie-rack">
+			<li class="tie"><img src="assets/tie-rack/black@1.5x.jpg"/><br/>Black</li>
+			<li class="tie"><img src="assets/tie-rack/blue@1.5x.jpg"/><br/>Blue</li>
+			<li class="tie"><img src="assets/tie-rack/collegiate@1.5x.jpg"/><br/>Collegiate</li>
+			<li class="tie"><img src="assets/tie-rack/cotton@1.5x.jpg"/><br/>Cotton</li>
+			<li class="tie"><img src="assets/tie-rack/favorites@1.5x.jpg"/><br/>Favorites</li>
+			<li class="tie"><img src="assets/tie-rack/graphic@1.5x.jpg"/><br/>Graphic</li>
+			<li class="tie"><img src="assets/tie-rack/plaid@1.5x.jpg"/><br/>Plaid</li>
+			<li class="tie"><img src="assets/tie-rack/silk@1.5x.jpg"/><br/>Silk</li>
+			<li class="tie"><img src="assets/tie-rack/striped@1.5x.jpg"/><br/>Striped</li>
+		</ul>
+	</div>
+	</div>
+	<h1>Start dressing better.</h1>
 </div>
-<div class="container">
-	
-</div>
+<!--*********************************************************************************
+	BowTies, Pocket Squares, Tie Tacks, some text and a centered link to 'about'
+**********************************************************************************-->
+
+	<div class="container specialties">
+		
+	</div>
+<div class="scallops"></div>
+<!--*********************************************************************************
+	Weekly Pick, Social, Sign up for Email alerts, Tutorial link w/pic
+***********************************************************************************-->
 <div class="notices-social">
 	<div class="container">
 		
 	</div>
 </div>
+<div class="x-bar"></div>
+<!--**********************************************************************************
+	FOOTER
+*************************************************************************************-->
 <footer>
 	<div class="container">
 		<ul id="footer-menu">
@@ -82,7 +135,7 @@
 					<p><b>Help</b></p>
 					<ul class="lists">
 						<li>Contact Us</li>
-						<li>shipping Info</li>
+						<li>Shipping Info</li>
 						<li>Returns</li>
 					</ul class="lists">
 				</div>

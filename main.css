@@ -1,3 +1,19 @@
+* {
+	font-family:  'Alegreya Sands', sans-serif;
+}
+/*'Alegreya Sands',*/
+
+.container {
+  width:1060px;
+  margin:0 auto;
+}
+
+.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
 .top-bar{
 	background: #FA6938;
 	height: 40px;
@@ -7,47 +23,155 @@
 	display: inline;
 	list-style: none;
 	color: #fff;
-	margin-top: 10px;
-		
+	margin-top: 10px;		
 }
 
 #brick-back {
 	background: #CC4949;
+	float: left;
+	margin-right: 20px;
+	margin-top: 8px;
+	padding: 3px 8px;
+	font-size: 0.8rem;
 }
 
 .top-ad {
 	float: left;
 	margin-right: 20px;
-	padding: 8px;
+	padding: 10px;
 	font-size: 0.8rem;
 }
 
-.container {
-  width:1000px;
-  margin:0 auto;
+.nav-menu {
+	width: 100%;
+	height: 130px;
+
 }
+
+#logo-link {
+	float: left;
+}
+#logo-link img {
+	width: 120px;
+	height: 120px;
+	margin-right:50px;
+}
+
+#main-nav {
+	padding-top: 50px;
+	float: left;
+	width: 50%;
+}
+
+#categories {
+	list-style: none;
+	display: inline;
+}
+.nav-choice {
+	float: left;
+	font-size: 1.48rem;
+	font-weight: 300;
+	margin-right: 24px;
+	text-align: left;
+}
+#form-links {
+	float: right;
+	margin-top: 10px;
+}
+#links {
+	float: right;
+}
+#links a {
+	text-decoration: none;
+	font-size: 0.7rem;
+	color: #DDD;
+}
+#form {
+	clear: right;
+	margin-top: 8px;
+	float:right;
+}
+
+#cart {
+	padding: 1px 5px;
+	border: 1px solid #DDD;
+}
+#search-box {
+	width: 50px;
+}
+.specialties {
+	height: 400px;
+}
+
+.scallops {
+	width: 100%;
+	height: 4px;
+	background: url('assets/perforated-bottom@2x.png');
+	clear: both;
+}
+
+.ties {
+	background: #F4F4F4;
+	height: 400px;
+}
+
+#outer-hanger {
+	margin-left: 50px;
+}
+
+#tie-rack {
+	list-style: none;
+	display: inline;
+}
+
+.tie {
+	float: left;
+	text-align: center;
+	margin-right: 22px;	
+}
+
+.tie img {
+	width: 75px;
+	height: 150px;
+}
+
+.ties h1 {
+	clear: both;
+	font-size: 3.5rem;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 80px;
+}
+
 
 footer {
 	width: 100%;
+	height: 300px;
 	background: #F4F4F4;
 }
 
 #footer-menu {
 	list-style: none;
-	display:inline;
+	display:inline;	
 }
 
 .footer-list {
 	float:left;
-	margin-right: 15px;
+	margin-right: 20px;
+	padding-top: 10px;
 }
 
 .footer-list ul {
 	list-style: none;
-	padding: 0;
-	
-}
-.lists {
 	float:left;
+	padding: 0;	
+	font-weight: 80%;
 }
+
+.footer-list ul li {
+	color: #A2AFC0;
+	font-size: 0.9rem;
+	padding-bottom: 3px;
+}
+
 
