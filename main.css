@@ -6,7 +6,7 @@ ul {
 	list-style: none;
 }
 .container {
-  width:1060px;
+  width:1100px;
   margin:0 auto;
 }
 
@@ -15,7 +15,8 @@ ul {
   display:block;
   clear:both;
 }
-
+/*Top (orange) Bar Styling***************************************************
+*/
 .top-bar{
 	background: #FA6938;
 	height: 40px;
@@ -42,6 +43,8 @@ ul {
 	padding: 10px;
 	font-size: 0.8rem;
 }
+
+/* Main Menu Div***************************************************************/
 
 .nav-menu {
 	width: 100%;
@@ -114,9 +117,11 @@ ul {
 .scallops {
 	width: 100%;
 	height: 4px;
-	background: url('assets/perforated-bottom@2x.png');
+	background: url('assets/perforated-bottom@1.1x.png');
 	clear: both;
 }
+
+/* BIG TIE DIV *****************************************************************/
 
 .ties {
 	background: #F4F4F4;
@@ -150,25 +155,72 @@ ul {
 	padding-top: 80px;
 }
 
+/* BOW TIE & TIE TAC DIV*******************************************************/
+
 .specialties {
-	height: 400px;
+	height: 550px;
 }
-#specialties {
-	margin-top: 50px;
+#specialties {	
 	display: inline;
+
 }
 
+.specialties h1 {
+	clear: both;
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2.1rem;
+	margin-bottom: -8px;
+}
+
+.specialties h3 {
+	clear: both;
+	text-align: center;	
+	font-weight: 300;
+	font-size: 1.1rem;
+	margin-top: 24px;
+}
+.specialties a {
+	text-decoration: none;
+}
+	
 .spec {
 	float: left;
-	margin-right: 30px;
+	margin-right: 25px;
+	margin-top: 50px;
+	padding-bottom: 80px;
 }
 
 .spec img {
-	width:300px;
+	width:325px;
 	height:200px;
 }
 
+.x-bar {
+	width: 100%;
+	height: 8px;
+	background: url('assets/hatch-light@1.1x.png');
+	clear: both;
+}
 
+/* NOTICES - SOCIAL MEDIA - NEWSLETTER DIV*******************************************/
+
+.notices-social {
+	height: 300px;
+}
+.notices-social h3 {
+	font-weight: 700;
+}
+.social {
+	display: inline;
+}
+.fourths {
+	float: left;
+	width: 25%;
+}
+
+/* FOOTER DIV***********************************************************************/
 footer {
 	width: 100%;
 	height: 300px;
