@@ -15,8 +15,7 @@ ul {
   display:block;
   clear:both;
 }
-/*Top (orange) Bar Styling***************************************************
-*/
+/*Top (orange) Bar Styling (div 1) *****************************************/
 .top-bar{
 	background: #FA6938;
 	height: 40px;
@@ -44,7 +43,7 @@ ul {
 	font-size: 0.8rem;
 }
 
-/* Main Menu Div***************************************************************/
+/* Main Menu Div (div 2)**********************************************************/
 
 .nav-menu {
 	width: 100%;
@@ -121,7 +120,7 @@ ul {
 	clear: both;
 }
 
-/* BIG TIE DIV *****************************************************************/
+/* BIG TIE DIV (div 3)*****************************************************************/
 
 .ties {
 	background: #F4F4F4;
@@ -155,7 +154,7 @@ ul {
 	padding-top: 80px;
 }
 
-/* BOW TIE & TIE TAC DIV*******************************************************/
+/* BOW TIE & TIE TAC DIV (div 4)****************************************************/
 
 .specialties {
 	height: 550px;
@@ -204,7 +203,7 @@ ul {
 	clear: both;
 }
 
-/* NOTICES - SOCIAL MEDIA - NEWSLETTER DIV*******************************************/
+/* NOTICES - SOCIAL MEDIA - NEWSLETTER DIV (div 5) *********************************/
 
 .notices-social {
 	height: 300px;
@@ -213,14 +212,14 @@ ul {
 	font-weight: 700;
 }
 .social {
-	display: inline;
+	
 }
 .fourths {
 	float: left;
-	width: 25%;
+	width: 20%;
 }
 
-/* FOOTER DIV***********************************************************************/
+/* FOOTER DIV (div 6)*****************************************************************/
 footer {
 	width: 100%;
 	height: 300px;
