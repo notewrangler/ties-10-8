@@ -1,7 +1,3 @@
-* {
-	font-family: 'Gafata', sans-serif;
-}
-
 ul {
 	list-style: none;
 }
@@ -19,13 +15,16 @@ a {
   display:block;
   clear:both;
 }
+
 /*Top (orange) Bar Styling (div 1) *****************************************/
+
 .top-bar{
 	background: #FA6938;
 	height: 40px;
 }
 
 #top-ads {
+	font-family: 'Gafata', sans-serif;
 	display: inline;	
 	color: #fff;
 	margin-top: 10px;		
@@ -263,7 +262,7 @@ a {
 	position: absolute;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 800;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	top: -12px;
 	right: 10px;
 	width: 107px;
@@ -390,7 +389,7 @@ footer {
 }
 
 .footer-list p {
-	font-size: 1.1rem;
+	font-size: 0.85rem;
 	font-weight: 300;
 	margin-bottom: 5px;
 }
@@ -465,6 +464,7 @@ footer {
 
 #legal {
 	clear: both;
+	color: #999999;
 	padding-top: 35px;
 	font-size: 0.65rem;
 }
