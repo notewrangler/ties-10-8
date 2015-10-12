@@ -44,14 +44,24 @@ div 2 First LARGE division, contains company logo(link)  MAIN MENU choices, Auth
 				<span class="auth"><a href="#">REGISTER</a></span>
 			</div>
 			<div id="form">
-				<span id="cart">Cart</span>
-				<span id="search-box"><input type="text" placeholder="Search" /></span>				
+				<div id="cart">
+					<div id="shopping-cart"></div>
+						<div id="cart-text"> Cart </div>
+					<div id="bubble"></div>
+				</div>
+					
+				<div id="search-box">
+					<div id="inner">
+						<div id="magnifier"></div>
+						<input type="text" placeholder="Search" />
+					</div>
+				</div>				
 			</div>
 		</div>
 		
-	</div>
-	<div class="scallops"></div>
+	</div>	
 </div>
+<div class="scallops"></div>
 <!--**********************************************************************************
 div 3  TIE RACK div!
 ***********************************************************************************-->
@@ -59,15 +69,15 @@ div 3  TIE RACK div!
 	<div class="container">
 	<div id="outer-hanger">
 		<ul id="tie-rack">
-			<li class="tie"><img src="assets/tie-rack/black@1.5x.jpg"/><br/>Black</li>
-			<li class="tie"><img src="assets/tie-rack/blue@1.5x.jpg"/><br/>Blue</li>
-			<li class="tie"><img src="assets/tie-rack/collegiate@1.5x.jpg"/><br/>Collegiate</li>
-			<li class="tie"><img src="assets/tie-rack/cotton@1.5x.jpg"/><br/>Cotton</li>
-			<li class="tie"><img src="assets/tie-rack/favorites@1.5x.jpg"/><br/>Favorites</li>
-			<li class="tie"><img src="assets/tie-rack/graphic@1.5x.jpg"/><br/>Graphic</li>
-			<li class="tie"><img src="assets/tie-rack/plaid@1.5x.jpg"/><br/>Plaid</li>
-			<li class="tie"><img src="assets/tie-rack/silk@1.5x.jpg"/><br/>Silk</li>
-			<li class="tie"><img src="assets/tie-rack/striped@1.5x.jpg"/><br/>Striped</li>
+			<li class="tie"><img src="assets/tie-rack/black@1.5x.jpg"/><br/><p>Black</p></li>
+			<li class="tie"><img src="assets/tie-rack/blue@1.5x.jpg"/><br/><p>Blue</p></li>
+			<li class="tie"><img src="assets/tie-rack/collegiate@1.5x.jpg"/><br/><p>Collegiate</li>
+			<li class="tie"><img src="assets/tie-rack/cotton@1.5x.jpg"/><br/><p>Cotton</li>
+			<li class="tie"><img src="assets/tie-rack/favorites@1.5x.jpg"/><br/><p>Favorites</li>
+			<li class="tie"><img src="assets/tie-rack/graphic@1.5x.jpg"/><br/><p>Graphic</li>
+			<li class="tie"><img src="assets/tie-rack/plaid@1.5x.jpg"/><br/><p>Plaid</p></li>
+			<li class="tie"><img src="assets/tie-rack/silk@1.5x.jpg"/><br/><p>Silk</p></li>
+			<li class="tie"><img src="assets/tie-rack/striped@1.5x.jpg"/><br/><p>Striped</li>
 		</ul>
 	</div>
 	</div>
@@ -78,11 +88,17 @@ div 4	BowTies, Pocket Squares, Tie Tacks, some text and a centered link to 'abou
 **********************************************************************************-->
 
 	<div class="container specialties">
-		<ul id="specialties">
-			<li class='spec'><img src="assets/bow-ties@1.5x.jpg" alt=""></li>
-			<li class='spec'><img src="assets/pocket-squares@1.5x.jpg" alt=""></li>
-			<li class='spec'><img src="assets/tie-bars@1.5x.jpg " alt=""></li>
-		</ul>
+		<div id="specialties">
+			<div class='spec'><img src="assets/bow-ties@1.5x.jpg" alt="">
+					<div class="pic-inner"><h2>Bow Ties</h2></div>
+			</div>
+			<div class='spec'><img src="assets/pocket-squares@1.5x.jpg" alt="">
+					<div class="pic-inner"><h2>Pocket Squares</h2></div>
+			</div>
+			<div class='spec'><img src="assets/tie-bars@1.5x.jpg " alt="">
+				<div class="pic-inner"><h2>Tie Bars</h2></div>
+			</div>
+		</div>
 		<h1>We started designing and selling neckties in 1971.</h1>
 		<h1>After 44 years, we're still family-owned and operated.</h1>
 		<h3><a href="#">VIEW OUR STORY</a></h3>
@@ -95,21 +111,33 @@ div 5	Weekly Pick, Social, Sign up for Email alerts, Tutorial link w/pic
 <div class="notices-social">
 	<div class="container">
 		<div id="social">
-			<div class="fourths">
-				<h3>Weekly Pick</h3>	
+			<div class="fourths" id="first4th">
+				<h3>Weekly Pick</h3>
+				<img class="social-i" src="assets/collegiate.jpg" />
+				<p><a href="#">2" Blue and black striped Collegiate tie.</a></p>				
 			</div>
 			<div class="fourths">
 				<h3>Loop Us In</h3>
+				<p>Tightly knotted or hanging loose?
+				Fitted suit or selvidge denim? 
+				Share your style with us.</p>
 			</div>
 			<div class="fourths">
 				<h3>The Quarterly</h3>
+				<p>Our newsletter is simple and brief 
+				for the hard-pressed gentleman.</p><br/>
+				<div id="email-signup"><input type="text" placeholder="name@example.com" /></div><br/>
+				<div id="subscribe"><a href="#">SUBSCRIBE ME</a></div>
 			</div>
-			<div class="fourths"></div>
+			<div class="fourths" id="bogus-anomaly">
 				<h3>Style Guide</h3>
-			</div>
+				<img class="social-i" src="assets/style-guide@1.5x.jpg" />
+				<p>There are eighty-five ways to <a href="#">knot a tie. </a>We'll show you <a href="#">the essentials. </a></p>
+			</div>				
 		</div>
 	</div>
 </div>
+
 <div class="scallops"></div>
 <!--**********************************************************************************
 div 6	FOOTER
