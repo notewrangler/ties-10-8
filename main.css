@@ -390,7 +390,7 @@ footer {
 }
 
 .footer-list p {
-	font-size: 0.85rem;
+	font-size: 1.1rem;
 	font-weight: 300;
 	margin-bottom: 5px;
 }
@@ -461,6 +461,12 @@ footer {
 	top: -9px; left: 0px;
 	color: #FFF;
 	font-weight: 300;
+}
+
+#legal {
+	clear: both;
+	padding-top: 35px;
+	font-size: 0.65rem;
 }
 
 /*
